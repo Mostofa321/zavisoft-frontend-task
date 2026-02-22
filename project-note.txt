@@ -1,0 +1,12 @@
+font sizes --------------------------->
+Rubik/16px: 
+    font-family: Rubik;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+
+16, 74, 24, 36, 48, 32

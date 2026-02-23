@@ -195,49 +195,49 @@ interface TypographyProps extends React.HTMLAttributes<HTMLElement> {
 const variantStyles: Record<TypographyVariant, string> = {
   hero: `
     font-rubik font-bold uppercase
-    text-[100px] md:text-[160px] lg:text-[223.5px]
+    text-[60px] sm:text-[100px] md:text-[120px] lg:text-[160px] xl:text-[206px] 2xl:text-[223.5px]
     leading-[100%]
   `,
 
   h2: `
     font-rubik font-semibold
-    text-[48px] md:text-[60px] lg:text-[74px]
+    text-[24px] lg:text-[74px]
     leading-[100%]
   `,
 
   "h2-display": `
     font-rubik font-semibold uppercase
-    text-[48px] md:text-[60px] lg:text-[74px]
+    text-[24px] lg:text-[74px]
     leading-[95%]
   `,
 
   "h3-display": `
     font-rubik font-semibold uppercase
-    text-[32px] md:text-[40px] lg:text-[48px]
+    text-[32px] lg:text-[48px]
     leading-[100%]
   `,
 
   "h4-display": `
     font-rubik font-semibold uppercase
-    text-[28px] md:text-[32px] lg:text-[36px]
+    text-[28px] lg:text-[36px]
     leading-[100%]
   `,
 
   h5: `
     font-rubik font-semibold
-    text-[24px] md:text-[28px] lg:text-[32px]
+    text-[24px] lg:text-[32px]
     leading-[100%]
   `,
 
   h6: `
     font-rubik font-semibold
-    text-[20px] md:text-[22px] lg:text-[24px]
+    text-[20px] lg:text-[24px]
     leading-[100%]
   `,
 
   "rubik-base": `
     font-rubik font-semibold
-    text-[14px] md:text-[15px] lg:text-[16px]
+    text-[14px] lg:text-[16px]
     leading-[100%]
   `,
 
@@ -256,19 +256,19 @@ const variantStyles: Record<TypographyVariant, string> = {
 
   "body-xl": `
     font-open-sans font-semibold
-    text-[18px] md:text-[20px] lg:text-[24px]
+    text-[18px] lg:text-[24px]
     leading-[100%]
   `,
 
   "body-lg": `
     font-open-sans font-semibold
-    text-[16px] md:text-[18px] lg:text-[20px]
+    text-[16px] lg:text-[20px]
     leading-[100%]
   `,
 
   body: `
     font-open-sans font-normal
-    text-[14px] md:text-[15px] lg:text-[16px]
+    text-[14px] lg:text-[16px]
     leading-[100%]
   `,
 

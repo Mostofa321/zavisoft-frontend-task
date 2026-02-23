@@ -40,7 +40,7 @@ export default function RootLayout({
         className={`${rubik.variable} ${openSans.variable} ${inter.variable} antialiased bg-gray`}
       >
         <Navbar />
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );

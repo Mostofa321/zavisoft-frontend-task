@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import Link from "next/link";
 import { Menu } from "lucide-react";
 import Image from "next/image";
@@ -9,13 +9,10 @@ import UserIcon from "../assets/UserIcon";
 
 const Navbar: FC = () => {
   return (
-    <div className="px-4 lg:px-8 pt-[32px] pb-6">
+    <div className="section-container pt-[32px] pb-6">
       {/* Navigation Container */}
-      <nav className="max-w-[1320px] mx-auto flex w-full  items-center justify-between rounded-[12px] lg:rounded-[24px] bg-white p-4 lg:p-[32px]">
-        {/* ========================================== */}
-        {/* LEFT SECTION */}
-        {/* ========================================== */}
-
+      <nav className=" flex items-center justify-between rounded-[12px] lg:rounded-[24px] bg-white p-4 lg:p-[32px]">
+        {/* left section start  *********************************************/}
         {/* Desktop Left: Navigation Links */}
         <div className="hidden flex-1 items-center gap-10 lg:flex">
           <Link href="#" className="flex items-center gap-1">
@@ -41,31 +38,30 @@ const Navbar: FC = () => {
             <Menu className="h-5 w-5 stroke-[2.5]" />
           </button>
         </div>
+        {/* left section end  *********************************************/}
 
-        {/* ========================================== */}
-        {/* CENTER SECTION: LOGO */}
-        {/* ========================================== */}
-
+        {/* center logo start  *********************************************/}
         <div className="flex justify-center">
           <Link
             href="/"
             className="text-4xl font-black tracking-tighter text-[#1a1a1a] md:text-5xl"
             style={{ fontFamily: "Arial Black, Impact, sans-serif" }}
           >
-            <Image src="/logo.png" alt="Logo" width={128} height={32} className="w-20 h-5 lg:w-32 lg:h-8" />
+            <Image
+              src="/logo.png"
+              alt="Logo"
+              width={128}
+              height={32}
+              className="w-20 h-5 lg:w-32 lg:h-8"
+            />
           </Link>
         </div>
+        {/* center logo end  *********************************************/}
 
-        {/* ========================================== */}
-        {/* RIGHT SECTION: ACTIONS */}
-        {/* ========================================== */}
-
+        {/* right section start  *********************************************/}
         <div className="flex flex-1 items-center justify-end gap-5 md:gap-6">
           {/* Search (Hidden on Mobile) */}
-          <button
-            aria-label="Search"
-            className="hidden  lg:block w-5.5 h-5.5"
-          >
+          <button aria-label="Search" className="hidden  lg:block w-5.5 h-5.5">
             <SearchIcon className="w-full h-full" />
           </button>
 
@@ -85,6 +81,7 @@ const Navbar: FC = () => {
             0
           </button>
         </div>
+        {/* right section end  *********************************************/}
       </nav>
     </div>
   );

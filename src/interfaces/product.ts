@@ -14,3 +14,16 @@ export interface IProduct {
   category: ICategory;
   images: string[];
 }
+
+
+export interface IReview {
+  id: number
+  title: string
+  text: string
+  rating: number
+  reviewer: {
+    name: string
+    imageUrl: string
+  }
+  productImageUrl: string
+}

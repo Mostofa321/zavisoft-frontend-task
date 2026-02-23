@@ -269,7 +269,7 @@ const variantStyles: Record<TypographyVariant, string> = {
   body: `
     font-open-sans font-normal
     text-[14px] lg:text-[16px]
-    leading-[100%]
+    leading-[138%]
   `,
 
   "body-sm": `

@@ -206,19 +206,19 @@ const variantStyles: Record<TypographyVariant, string> = {
   `,
 
   "h2-display": `
-    font-rubik font-semibold uppercase
+    font-rubik font-semibold
     text-[24px] lg:text-[74px]
     leading-[95%]
   `,
 
   "h3-display": `
-    font-rubik font-semibold uppercase
+    font-rubik font-semibold
     text-[32px] lg:text-[48px]
     leading-[100%]
   `,
 
   "h4-display": `
-    font-rubik font-semibold uppercase
+    font-rubik font-semibold
     text-[28px] lg:text-[36px]
     leading-[100%]
   `,
@@ -231,7 +231,7 @@ const variantStyles: Record<TypographyVariant, string> = {
 
   h6: `
     font-rubik font-semibold
-    text-[20px] lg:text-[24px]
+    text-[16px] lg:text-[24px]
     leading-[100%]
   `,
 
@@ -250,7 +250,7 @@ const variantStyles: Record<TypographyVariant, string> = {
 
   "rubik-xs": `
     font-rubik font-semibold
-    text-[11px] md:text-[12px]
+    text-[12px]
     leading-[100%]
   `,
 

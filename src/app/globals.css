@@ -160,6 +160,7 @@
   h5,
   h6 {
     font-family: var(--font-rubik), sans-serif;
+    color: var(--dark-gray);
   }
 }
 

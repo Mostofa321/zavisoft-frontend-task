@@ -51,6 +51,7 @@
 
   /* theme colors */
   --color-gray: var(--gray);
+  --color-gray-maybe: var(--gray-maybe);
   --color-gray-2: var(--gray-2);
   --color-gray-5: var(--gray-5);
   --color-white: var(--white);
@@ -97,6 +98,7 @@
   --gray: #E7E7E3;
   --gray-2: #D2D1D3;
   --gray-5: #8F8C91;
+  --gray-maybe: #232321;
   --white: #FAFAFA;
   --dark-gray: #232321;
   --yellow: #FFA52F;

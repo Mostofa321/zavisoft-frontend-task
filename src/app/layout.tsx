@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import { Providers } from "@/lib/providers";
 import Footer from "@/components/layout/Footer";
+import CtaSection from "@/components/pages/home/CtaSection";
 
 const rubik = Rubik({
   subsets: ["latin"],
@@ -44,8 +45,8 @@ export default function RootLayout({
         <Providers>
           <Navbar />
           <main>{children}</main>
+          <CtaSection />
           <Footer />
-          
         </Providers>
       </body>
     </html>

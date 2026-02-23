@@ -243,7 +243,7 @@ const variantStyles: Record<TypographyVariant, string> = {
 
   "rubik-label": `
     font-rubik font-medium uppercase underline
-    text-[13px] md:text-[14px]
+    text-[14px]
     tracking-[0.25px]
     leading-[100%]
   `,

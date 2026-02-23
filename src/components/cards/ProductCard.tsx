@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Button } from "../ui/button";
 import { IProduct } from "@/interfaces/product";
 import { Typography } from "../typography/typography";
+import Link from "next/link";
 
 const ProductCard = ({ product }: { product: IProduct }) => {
   return (
@@ -29,9 +30,13 @@ const ProductCard = ({ product }: { product: IProduct }) => {
       <div className="flex flex-col gap-4">
         <Typography variant="h6">{product.title}</Typography>
 
-        <Button variant="secondary" className="w-full uppercase">
-          View Product -<span className="text-yellow">${product.price}</span>
-        </Button>
+        <Link
+          href={`/products/${product.id}`}
+        >
+          <Button variant="secondary" className="w-full uppercase">
+            View Product -<span className="text-yellow">${product.price}</span>
+          </Button>
+        </Link>
       </div>
     </div>
   );

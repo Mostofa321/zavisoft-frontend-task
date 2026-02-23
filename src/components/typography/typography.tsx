@@ -219,7 +219,7 @@ const variantStyles: Record<TypographyVariant, string> = {
 
   "h4-display": `
     font-rubik font-semibold
-    text-[28px] lg:text-[36px]
+    text-[24px] lg:text-[36px]
     leading-[100%]
   `,
 

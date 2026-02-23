@@ -45,6 +45,7 @@ export default function RootLayout({
           <Navbar />
           <main>{children}</main>
           <Footer />
+          
         </Providers>
       </body>
     </html>

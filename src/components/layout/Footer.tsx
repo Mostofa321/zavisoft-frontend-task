@@ -1,14 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Facebook, Instagram, Twitter } from "lucide-react";
+import { Typography } from "../typography/typography";
 
 const Footer = () => {
   return (
     <footer className="section-container">
       <div className="bg-dark-gray text-white rounded-[32px] pt-[24px] lg:pt-[40px] -mt-12 lg:-mt-20 relative overflow-hidden">
-        <div
-          className="px-4 lg:px-[40px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-12"
-        >
+        <div className="px-4 lg:px-[40px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-12">
           {/* About */}
           <div>
             <h3 className="text-[#F6A623] text-xl font-semibold">About us</h3>
@@ -74,6 +73,12 @@ const Footer = () => {
             className="w-full object-contain object-bottom"
           />
         </div>
+      </div>
+      {/* copy right area  */}
+      <div className="text-center py-4 lg:py-6">
+        <Typography variant="body" className="text-dark-gray text-center">
+          © All rights reserved
+        </Typography>
       </div>
     </footer>
   );
